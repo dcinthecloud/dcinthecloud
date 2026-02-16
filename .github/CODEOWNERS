@@ -1,0 +1,11 @@
+# Global catch-all
+*                @dcinthecloud/platform
+
+# Infrastructure and Platform
+/infrastructure/ @dcinthecloud/platform
+/scripts/        @dcinthecloud/platform
+/.github/        @dcinthecloud/platform @dcinthecloud/security
+
+# Applications and Projects
+/apps/           @dcinthecloud/frontend @dcinthecloud/backend
+/projects/       @dcinthecloud/platform
